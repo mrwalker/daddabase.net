@@ -63,26 +63,37 @@ permalink: /about/
   </div>
 
   <div class="description-block">
-    <pre>BASIC PROGRAMMING
-  Learn the fundamentals of coding: variables, loops, functions,
-  and problem-solving. Start with simple concepts and build up to
-  creating your own programs.
+    <div class="topic-section">
+      <div class="topic-title">BASIC PROGRAMMING</div>
+      <div class="topic-description">
+        Learn the fundamentals of coding: variables, loops, functions, and problem-solving. Start with simple concepts and build up to creating your own programs.
+      </div>
+    </div>
 
-AI LITERACY
-  Understand how to use AI tools like Claude, Gemini, and ChatGPT
-  effectively. Learn what they're good at, their limitations, and
-  how to ask the right questions.
+    <div class="topic-section">
+      <div class="topic-title">AI LITERACY</div>
+      <div class="topic-description">
+        Understand how to use AI tools like Claude, Gemini, and ChatGPT effectively. Learn what they're good at, their limitations, and how to ask the right questions.
+      </div>
+    </div>
 
-SOLVING RUBIK'S CUBE
-  Master the classic 3x3 cube with step-by-step methods. Learn
-  algorithms, pattern recognition, and eventually speed-solving
-  techniques.
+    <div class="topic-section">
+      <div class="topic-title">SOLVING RUBIK'S CUBE</div>
+      <div class="topic-description">
+        Master the classic 3x3 cube with step-by-step methods. Learn algorithms, pattern recognition, and eventually speed-solving techniques.
+      </div>
+    </div>
 
-BUILDING WEBSITES
-  Create your own corner of the internet. Learn HTML, CSS, and
-  JavaScript to build interactive web pages and applications.
+    <div class="topic-section">
+      <div class="topic-title">BUILDING WEBSITES</div>
+      <div class="topic-description">
+        Create your own corner of the internet. Learn HTML, CSS, and JavaScript to build interactive web pages and applications.
+      </div>
+    </div>
 
-...AND MORE TO COME!</pre>
+    <div class="topic-section">
+      <div class="topic-title">...AND MORE TO COME!</div>
+    </div>
   </div>
 
   <div class="query-response">

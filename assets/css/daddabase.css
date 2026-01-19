@@ -265,7 +265,30 @@ body.loading {
   font-family: var(--font-body);
   font-size: 0.9rem;
   white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   margin: 0;
+}
+
+/* Topic sections within description blocks */
+.topic-section {
+  margin-bottom: var(--spacing-md);
+}
+
+.topic-section:last-child {
+  margin-bottom: 0;
+}
+
+.topic-title {
+  color: var(--color-secondary);
+  font-weight: bold;
+  margin-bottom: var(--spacing-xs);
+}
+
+.topic-description {
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-left: var(--spacing-sm);
 }
 
 /* Record Display (About Page) */
@@ -393,6 +416,20 @@ a:hover {
   .record-field {
     grid-template-columns: 1fr;
     gap: var(--spacing-xs);
+  }
+
+  .description-block pre {
+    font-size: 0.8rem;
+  }
+
+  .topic-description {
+    margin-left: 0;
+  }
+
+  .command {
+    display: block;
+    margin-left: var(--spacing-md);
+    margin-top: var(--spacing-xs);
   }
 }
 

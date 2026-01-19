@@ -86,11 +86,18 @@ title: Home
   </div>
 
   <div class="description-block">
-    <pre>Database: DADDABASE
-Description: A collection of lessons, tutorials, and knowledge
-             from Dadda to his kids (and anyone else curious
-             enough to explore).
-Status: Warming up... check back soon!</pre>
+    <div class="record-field">
+      <div class="field-name">Database:</div>
+      <div class="field-value">DADDABASE</div>
+    </div>
+    <div class="record-field">
+      <div class="field-name">Description:</div>
+      <div class="field-value">A collection of lessons, tutorials, and knowledge from Dadda to his kids (and anyone else curious enough to explore).</div>
+    </div>
+    <div class="record-field">
+      <div class="field-name">Status:</div>
+      <div class="field-value">Warming up... check back soon!</div>
+    </div>
   </div>
 
   <div class="query-response">

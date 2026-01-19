@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon/favicon.svg' | relative_url }}">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/daddabase.css' | relative_url }}">
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- RSS Feed -->
+  {% feed_meta %}
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+</head>
+<body class="loading">
+  <div class="terminal-container">
+    <div class="crt-screen">
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="{{ '/assets/js/terminal.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(brainstorming)",
+      "Skill(brainstorming:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(jekyll serve:*)"
+    ]
+  }
+}
